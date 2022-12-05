@@ -16,7 +16,7 @@ treepointer deleteq(void);
 void levelorder(treepointer ptr);
 
 int main() {
-	printf("��ǻ���к� 2022116778 �̵���\nn: ");
+	printf("ÄÄÇ»ÅÍÇÐºÎ 2022116778 ÀÌµ¿Çö\nn: ");
 	int n;
 	scanf_s("%d", &n);
 	treepointer ptr;
@@ -48,7 +48,7 @@ treepointer deleteq(void) {
 }
 
 void levelorder(treepointer ptr) {
-	if (!ptr) return;//NULL return
+	if (!ptr) return;//함수 나오기
 	addq(ptr);
 	for (;;) {
 		ptr = deleteq();
